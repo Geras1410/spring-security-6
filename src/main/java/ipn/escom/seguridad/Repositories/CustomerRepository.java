@@ -8,4 +8,5 @@ import java.util.Optional;
 
 public interface CustomerRepository extends CrudRepository<CustomerEntity, BigInteger> {
     Optional<CustomerEntity> findByEmail(String email);
+
 }
